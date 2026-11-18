@@ -1,0 +1,16 @@
+{
+  "name": "fe-dev-kit",
+  "owner": {
+    "name": "Vytenis Kuciauskas"
+  },
+  "plugins": [
+    {
+      "name": "fe-dev-kit",
+      "source": "./",
+      "description": "Front-end development kit: clean-code TypeScript skills, a Next.js skill, persistent project memory, and session rules."
+    }
+  ],
+  "metadata": {
+    "description": "Marketplace for the fe-dev-kit Claude Code plugin."
+  }
+}

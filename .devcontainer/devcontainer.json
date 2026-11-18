@@ -48,7 +48,10 @@
       "settings": {
         // Run package.json scripts and dependency installs with pnpm rather than letting
         // VS Code guess a package manager from the lockfiles present.
-        "npm.packageManager": "pnpm"
+        "npm.packageManager": "pnpm",
+        // Turn off the built-in Copilot chat and agent features. This project uses Claude Code,
+        // and the Copilot agent host and runtime would use about 235 MB of RAM.
+        "chat.disableAIFeatures": true
       },
       "extensions": [
         "Anthropic.claude-code",
