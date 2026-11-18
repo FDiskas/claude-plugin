@@ -12,7 +12,7 @@ It gives Claude:
 Add this repository as a marketplace, then install the plugin:
 
 ```text
-/plugin marketplace add <git-url-or-path-of-this-repo>
+/plugin marketplace add https://github.com/FDiskas/claude-plugin
 /plugin install fe-dev-kit@fe-dev-kit
 ```
 
