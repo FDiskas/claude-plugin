@@ -4,7 +4,7 @@ A Claude Code plugin for front-end work in TypeScript and Next.js.
 
 It gives Claude:
 
-- **Skills** for clean TypeScript code, Next.js App Router work, and a persistent project memory.
+- **Skills** for clean TypeScript code, Next.js App Router work, a persistent project memory, and design grilling with domain modeling.
 - **Session rules** that load at the start of every session through a `SessionStart` hook.
 
 ## Install
@@ -41,6 +41,9 @@ Plugin skills are namespaced. Call them as `/fe-dev-kit:<skill>`, or let Claude 
 | `clean-tests` | Test speed, boundaries, and one concept per test. |
 | `nextjs-developer` | Next.js 14+ App Router, Server Components, Server Actions, deployment. |
 | `auto-memory` | Save and recall project facts under `.claude/memory/` in your project. |
+| `grilling` | Interview you in rounds of questions to stress-test a plan or decision. |
+| `domain-modeling` | Sharpen domain terms and keep `GLOSSARY.md` and ADRs in `docs/adr/` up to date. |
+| `grill-with-docs` | Run `grilling` and `domain-modeling` together. Call it manually only. |
 
 The upstream source and commit of each skill is in [skills-lock.json](skills-lock.json).
 

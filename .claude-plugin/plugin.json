@@ -1,10 +1,19 @@
 {
   "name": "fe-dev-kit",
-  "version": "0.1.0",
-  "description": "Front-end development kit: clean-code TypeScript skills, a Next.js skill, persistent project memory, and session rules for reporting style and process cleanup.",
+  "version": "0.2.0",
+  "description": "Front-end development kit: clean-code TypeScript skills, a Next.js skill, persistent project memory, design grilling and domain modeling (glossary and ADRs), and session rules for reporting style and process cleanup.",
   "author": {
     "name": "Vytenis Kuciauskas"
   },
   "license": "MIT",
-  "keywords": ["typescript", "clean-code", "nextjs", "memory", "frontend"]
+  "keywords": [
+    "typescript",
+    "clean-code",
+    "nextjs",
+    "memory",
+    "frontend",
+    "ddd",
+    "adr",
+    "planning"
+  ]
 }

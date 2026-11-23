@@ -7,7 +7,7 @@
     {
       "name": "fe-dev-kit",
       "source": "./",
-      "description": "Front-end development kit: clean-code TypeScript skills, a Next.js skill, persistent project memory, and session rules."
+      "description": "Front-end development kit: clean-code TypeScript skills, a Next.js skill, persistent project memory, design grilling and domain modeling, and session rules."
     }
   ],
   "metadata": {
