@@ -1,6 +1,6 @@
 ---
 name: clean-tests
-description: Use when writing, fixing, editing, or refactoring TypeScript tests. Enforces Clean Code principles—fast tests, boundary coverage, one assert per test.
+description: Use when writing, fixing, editing, or refactoring TypeScript tests. Enforces Clean Code principles—fast tests, boundary coverage, one assert per test. MUST run before the first edit of any test file (*.test.*, *.spec.*) in a session, including text and i18n changes in .ts and .tsx test files.
 when_to_use: |
   Also trigger on: slow or flaky tests, `test.skip`/`it.skip`/`.todo` without a clear reason, `test.only` left in committed code, tests that only cover the happy path, tests with multiple assertions about different concepts, missing boundary cases (empty arrays, off-by-one, page zero), or asks about "coverage gap" / "edge case".
 ---

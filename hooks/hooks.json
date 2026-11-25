@@ -1,5 +1,5 @@
 {
-  "description": "Load the fe-dev-kit session rules into context. Replaces a CLAUDE.md, which plugins cannot ship.",
+  "description": "Load the coders session rules and project memory index into context, and remind Claude to load the coders skills before prompts and TypeScript edits.",
   "hooks": {
     "SessionStart": [
       {
@@ -8,6 +8,27 @@
           {
             "type": "command",
             "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/session-start.sh\""
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/prompt-reminder.sh\""
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${CLAUDE_PLUGIN_ROOT}/hooks/pre-edit.sh\""
           }
         ]
       }

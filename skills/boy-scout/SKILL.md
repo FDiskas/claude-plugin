@@ -1,6 +1,6 @@
 ---
 name: boy-scout
-description: Use when fixing, editing, changing, debugging, or working with any TypeScript code. Applies the Boy Scout Rule—always leave code cleaner than you found it. Orchestrates other clean code skills as needed.
+description: Use when fixing, editing, changing, debugging, or working with any TypeScript code. Applies the Boy Scout Rule—always leave code cleaner than you found it. Orchestrates other clean code skills as needed. MUST run before the first edit of any .ts or .tsx file in a session, including text, copy, and i18n changes.
 when_to_use: |
   Also trigger on: "while you're at it", "any quick wins", "improve this a bit", "anything else obviously wrong", or when editing existing TypeScript and an adjacent small cleanup is possible alongside the asked-for change.
 ---

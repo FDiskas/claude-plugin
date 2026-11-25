@@ -1,4 +1,15 @@
-# fe-dev-kit instructions
+# coders instructions
+
+## Skills (always follow)
+
+**IMPORTANT:** The skills of the `coders` plugin carry the owner's coding style and working method. Load them with the Skill tool **every time** their scope applies, not only when a description matches. Treat this as a hard requirement, not a preference.
+
+1. **Start of every task, in every project:** call `coders:auto-memory` (recall) before any other tool call.
+2. **End of every turn that produced durable facts:** call `coders:auto-memory` (save).
+3. **Before the first edit of a `.ts` or `.tsx` file:** call `coders:boy-scout` and `coders:typescript-clean-code`. Text and i18n changes in these files count as edits.
+4. **Before the first edit of a test file (`*.test.*`, `*.spec.*`):** also call `coders:clean-tests`.
+5. **Work on a Next.js app** (App Router, server components, server actions, route handlers): call `coders:nextjs-developer`.
+6. `coders:boy-scout` calls the other `clean-*` skills itself. `grilling`, `domain-modeling`, and `grill-with-docs` run only on their own triggers.
 
 ## Reporting style (always follow)
 

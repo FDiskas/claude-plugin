@@ -1,6 +1,6 @@
 ---
 name: auto-memory
-description: Persistent per-project knowledge base under .claude/memory/ — saves high-signal, durable, non-obvious facts (corrections, decisions, investigation outcomes, gotchas, business context) into a nested tree of topic folders with indexes, and recalls relevant entries before a task. Triggers on - remember this, don't forget, save to memory, make a note, important, take note, recall, what do you know about, what do you remember, forget this, update memory. Also runs at the start of any task that touches the project, preferences, ongoing work, or decisions.
+description: Runs at the start of every task, in every project, to recall memory, and at the end of every turn that produced durable facts, to save them. Persistent per-project knowledge base under .claude/memory/ — saves high-signal, durable, non-obvious facts (corrections, decisions, investigation outcomes, gotchas, business context) into a nested tree of topic folders with indexes, and recalls relevant entries before a task. Triggers on - remember this, don't forget, save to memory, make a note, important, take note, recall, what do you know about, what do you remember, forget this, update memory. Also runs at the start of any task that touches the project, preferences, ongoing work, or decisions.
 ---
 
 # Auto Memory
